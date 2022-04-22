@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:
+}
+
+body{
+    background: url('imagess.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+section {
+   min-height: 100vh;     
+   
+   
+ 
+}
+
+form{
+    margin-left: 830px;
+}
+
+header{
+    
+    top:2px;
+    padding: 30px 50px;   
+    display: flex;
+    align-items: center;  
+}
+
+.cols{
+   
+    margin-top: 40px;
+    background: url('loggin.jpg') no-repeat right ;
+    background-position: right;
+    background-size: 380px;
+   background-position-y: -40px;
+  
+    background-position-x: 900px;
+}
+
+header .navigation a{
+        color: black;
+        text-decoration: none;
+        letter-spacing: 1px;
+        padding: 10px 12px;
+        border-radius: 5px;
+        transition: 0.3s;
+        margin-left: 20px;
+        font-size: 17px;       
+}
+
+header .navigation a:hover{
+    background-color:wheat;
+    color: black;
+
+}
+
+.info h1{
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: black;
+    padding-left: 30%;
+    text-shadow: 1px 1px 2px rgb(205, 148, 50), 0 0 25px rgb(234, 177, 55), 0 0 5px rgb(242, 195, 54);
+}
+
+.info h2{
+    font-size: 42px;
+    padding-left:5%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.row p{
+   display: flex;
+   padding:20px 80px;
+   margin-right:700px;
+   margin-left: 20px;
+   justify-content:center;
+   text-align: center;  
+  background-color: rgba(240, 238, 227, 0.64);
+   font-size: 20px;
+   color:rgb(12, 12, 12);
+   padding-left:80px
+   
+}
+
+
+
+
+
+.info-btns {
+    display: flex;
+    background-color:white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-right:80%;
+    margin-left:8%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: wheat;
+    color:black;
+}
+
+ 
+
+.media a{
+  
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0px;
+    transition:0.3s;
+    transition-property: transform;
+    margin-left: 170px;
+}
+
+.media a:hover{
+    transform: scale(1.7);
+}
+
+
+.image{
+    background: url("gym1.jpg") no-repeat center; 
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom:65%;
+    padding-left: 60px;
+    padding-right: 10%;
+    margin-bottom: 25px;
+    margin-top: -10px;
+   }
+   
+   .logo{
+       float: left;
+       height: 10px;
+       width: 5px;
+       padding-bottom: 150px;
+       border-radius: 40px;
+   }
+
+   
+   /*form{
+       float: right;
+       margin-left: 500px;
+       padding-top: 20px;
+       font-size: 10px;
+   }*/
+   
+
+
+/*#check:checked ~ header .navigation{
+    z-index: 0;
+    position: fixed;
+    background: wheat;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#check:checked ~ header .navigation a{
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#check:checked ~ header label .menu-btn{
+    display: none;
+}
+
+#check:checked ~ header label .close-btn{
+    z-index: 0;
+    display: block;
+    position: fixed;
+}
+
+label .menu-btn{
+    position: absolute;
+} */
+
+
